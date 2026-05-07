@@ -1,5 +1,5 @@
 {% set name = "py4d-browser-transform" %}
-{% set version = "0.0.1" %}
+{% set version = "0.0.2.post1" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/py4d_browser_transform-{{ version }}.tar.gz
-  sha256: 74b86785463dabec57216940268a5dbd34d8672eee5dbe5d951d8020f805e025
+  sha256: 2856cb933cac4d447d028f4ea9330f36c494c77f5072b56586b09dda1a3df080
 
 build:
   noarch: python
